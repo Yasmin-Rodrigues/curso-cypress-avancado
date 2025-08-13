@@ -1,31 +1,42 @@
-# Testes Automatizados com Cypress - Avançado
+# 📗 Advanced Cypress
 
-👋 Seja bem vindo(a)!
+👋 Welcome
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai adorar este curso. ❤️
+## 🚀 Installation
 
-## O que você vai aprender
+Clone the repository and install the dependencies:
 
-Durante o curso avançado de Cypress, você vai aprender:
+```bash
+git clone https://github.com/Yasmin-Rodrigues/curso-cypress-avancado
+cd advanced-cypress
+npm install
+# or
+yarn
+```
 
-- Como criar testes 100% _flakiness-free_
-- Como interagir com a aplicação o mais próximo de como um usuário real faria
-  - Como esperar por um elemento estar visível antes de interagir com ele
-  - Como simular o uso do teclado em vez de clique em botão em funcionalidades de busca
-  - Como esperar por requisições HTTP antes de seguir em frente com os testes
-- Como organizar diferentes testes em seus específicos contextos
-- Como ler o `localStorage` do navegador
-- Como tornar seletores de elementos mais específicos
-- Como simplificar comandos repetitivos
-- Como interceptar e mockar uma API externa para testar o frontend independente do backend
-- Como simular erros no servidor e na rede
-- Como simular lentidão na chamada à uma API
-- Como modificar o relatório de testes padrão para um que combine com o seu estilo 😉
+## 🧪 Running the Tests
 
-## Vamos começar?
+Interactive mode (GUI):
+```bash
+npx cypress open
+```
 
-Vá para a seção de [pré-requisitos](./lessons/0.md).
+Headless mode (CLI):
+```bash
+npx cypress run
+```
+## 📝 Content
 
-___
-
-Um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+- How to create 100% flakiness-free tests
+- How to interact with the application as closely as possible to how a real user would
+- How to wait for an element to be visible before interacting with it
+- How to simulate keyboard usage instead of button clicks in search functionalities
+- How to wait for HTTP requests to complete before continuing with tests
+- How to organize different tests into their specific contexts
+- How to read the browser’s localStorage
+- How to make element selectors more specific
+- How to simplify repetitive commands
+- How to intercept and mock an external API to test the frontend independently from the backend
+- How to simulate server and network errors
+- How to simulate API call latency
+- How to customize the default test report to match your style 😉
